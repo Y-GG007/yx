@@ -1,0 +1,174 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <meta name="description" content="Example of Fluid Layout with Bootstrap version 2.0 from w3cschool.cc">
+
+    <meta name="author" content="">
+    <title>欢迎来到大肥猫之家</title>
+
+
+    <style type="text/css">
+
+        .*{
+            margin: 0px;
+            padding: 0px;
+            display:flex;
+            flex-direction:column;
+
+        }
+
+        .loginstyle{
+            width: 200px;
+            height: 50px;
+            float: right;
+        }
+        /*.right1 {
+            width: 100px;
+            height: 75px;
+            background: #22787A;
+            float: right;
+            margin-bottom: 0px;
+        }*/
+        /*.right2 {
+            height: 40px;
+            background: green;
+            margin-top: 50%;
+        }*/
+        <!--右侧导航栏-->
+        .body {
+            height: 610px;
+            background: #453F3F;
+            margin: 0 150px auto;
+            margin-bottom: -50px;
+            clear: both;
+            flex:1;
+            position: absolute;
+        }
+
+        .left2 {
+            position: relative;
+            width: 150px;
+            height: 100%;
+            float: left;
+            background: yellow;
+        }
+
+        .right_ri {
+            position: relative;
+            width: 150px;
+            height: 100%;
+            background: red;
+            float: right;
+        }
+
+        .left_content {
+            background: purple;
+            position: absolute;
+            left: 300px;
+            right: 300px;
+            width: auto;
+            height: 100%;
+        }
+
+        .left_content1 {
+            height: 35px;
+            background: blue;
+        }
+
+        .left_content2 {
+            height: 20px;
+            background: #E5484A;
+        }
+
+
+        .right_ri1 {
+            height: 30px;
+            background: red;
+        }
+
+        .left1 {
+            position: fixed;
+            width: 200px;
+            height: 80px;
+            background: red;
+            float: left;
+            top: 34px;
+        }
+
+        .bonnt {
+            width: 100%;
+            height: 50px;
+            background: #9F9;
+            clear: both;
+            margin: 0 auto;
+            position: absolute;
+            bottom: 0px;
+        }
+    </style>
+
+    <script type="text/javascript" src="./RUN1.js"> </script>
+
+</head>
+
+<body>
+    <h1>YGG布局：</h1>
+    <div>
+        <a href="signup.html">登录账号</a><br/>
+        <a href="signup.html">注册账号</a>
+    </div>
+    <!--<div class="loginstyle"><table cellspacing="0" cellpadding="0">
+        <tbody><tr>
+            <td>
+<span class="ftid">
+<select name="fastloginfield" id="ls_fastloginfield" width="40" tabindex="900" selecti="0" style="display: none;">
+
+
+<option value="username" selected="selected"></option></select><a href="javascript:;" id="ls_fastloginfield_ctrl" style="width:40px" tabindex="900" initialized="true">用户名</a>
+</span>
+                <script type="text/javascript">simulateSelect('ls_fastloginfield')</script>
+            </td>
+            <td><input type="text" name="username" id="ls_username" autocomplete="off" class="px vm" tabindex="901" value="1942467600@qq.com"></td>
+            <td class="fastlg_l"><label for="ls_cookietime"><input type="checkbox" name="cookietime" id="ls_cookietime" class="pc" value="2592000" tabindex="903">自动登录</label></td>
+            <td>&nbsp;<a href="javascript:;" onclick="showWindow('login', 'member.php?mod=logging&amp;action=login&amp;viewlostpw=1')">找回密码</a></td>
+        </tr>
+        <tr>
+            <td><label for="ls_password" class="z psw_w">密码</label></td>
+            <td><input type="password" name="password" id="ls_password" class="px vm" autocomplete="off" tabindex="902"></td>
+            <td class="fastlg_l"><button type="submit" class="pn vm" tabindex="904" style="width: 75px;"><em>登录</em></button></td>
+            <td>&nbsp;<a href="https://bbs.52pcgame.net/member.php?mod=r52" class="xi2 xw1">立即注册</a></td>
+        </tr>
+        </tbody></table>-->
+    <!--用户登录注册-->
+    <div class="body">
+
+        <div class="left2">1左边</div>
+        <div class="right_ri">3右边</div>
+        <div class="left_content">
+            21中部
+
+            <div class="left_content1">22中部图片滚动区</div>
+
+            <div class="left_content2">23中部日记显示栏</div>
+
+            <div class="right_ri1">4中部日记书写栏</div>
+            <div class="bonnt">5网页底部</div>
+        </div>
+        
+
+
+    </div>
+
+        <!--<div class="left1">logo</div>-->
+    <input type="button" name="点击" onclick="function_name()">
+</body>
+
+
+
+
+</html>
