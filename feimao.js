@@ -1,3 +1,3 @@
 function huanying() {
-    alert('欢迎来到大肥猫之家');
+    alert('欢迎来到YGG之家');
     }
